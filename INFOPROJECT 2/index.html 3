@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>  
+    <head>  
+        <title>Home</title>
+    </head>
+
+    <body>
+        <h1>Cloud Computing</h1>
+    
+        <h2>Definition</h2>
+        <p>Could computing is the use of a network of remote severs hosted on the internet to store, manage, and process data, rather than a local sever or a personal computer</p>
+        
+        <h2>Examples</h2>
+        <p>Cloud computing is in a lot of everyday applications such as Google Drive and iCloud</p>
+    </body>
+</html>

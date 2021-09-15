@@ -1,0 +1,119 @@
+/* general design*/
+body{
+    font-family: century gothic;
+    background: linear-gradient(90deg,#00aaee 10%, #32CD32 90%)
+}
+
+span{
+    color: green
+}
+
+input[type=text], select, input[type=password]{
+    width: 250px;
+}
+
+/* general design*/
+/* start navigation bar*/
+#navigation {
+    list-style-type: none;
+    float: right;
+}
+
+#navigation li {
+    float: right;
+    display: inline-block;
+    margin-top: 25px;
+    height: 100%;
+    padding: 10px;
+}
+
+#navigation li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff
+}
+
+#navigation li a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.8s ease;
+}
+
+.logo img{
+    float: left;
+    margin-top: 20px;
+    width: 110px;
+    height: 130px;
+}
+
+p2{
+    float: left;
+    margin-top: 60px;
+    width: 110px;
+    height: 130px;
+    font-size: 30px;
+    color: white;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* End navigation bar*/
+/* Content Design*/
+table,td {
+    border:1px solid #000000;}
+h1{
+    font-size: 15px;
+}
+/* Content 1*/
+.content1{
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.8;
+    width: 320px;
+    height: 520px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+/* Content 1*/
+/* Content 2*/
+.content2{
+    position: absolute;
+    top: 25%;
+    left: 34.55%;
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.8;
+    width: 380px;
+    height: 520px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+/* Content 2*/
+/* Content 3*/
+.content3{
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.8;
+    width: 330px;
+    height: 520px;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+/* Content 3*/

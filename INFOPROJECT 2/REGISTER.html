@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> Workshop 3 </title>
+    <script src="registerscripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="registerstylesheet.css">
+</head>
+  
+<body>
+    <header>
+        <!--NAV BAR Start-->   
+        <div class="main">
+            <div class="logo">
+                <img src="4.gif" alt="CarShare Logo">
+                <p2>CARSHARE <span>Register</span></p2>
+            </div>
+                <ul id="navigation">
+                    <li><a href="REGISTER.html">Subscribe</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="SERVICE1.html">Services</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+        </div>
+    </header>
+     <!--NAV BAR End-->
+<content>
+    <div class="content1">
+    <!--Registration Left-->
+        <form>
+            <p>I am a...</p>
+            <input type="radio" name="Customer type" value="Driver">Driver<br> 
+            <input type="radio" name="Customer type" value="Car Owner">Car Owner<br>
+        </form>
+        <br>
+        <form>
+            <p>First and Last Name</p>
+                <input type="text" name="firstandlastname"><br>
+            <p>Date Of Birth DD/MM/YYYY</p>
+                <input type="text" name="DOB"><br>
+            <p>Email Address</p>
+                <input type="text" name="address"><br>
+            <p>Password </p>
+                <input type="password" name="passsword"><br>
+            <p id="phone">Phone Number - Press Send To Confirm</p>
+                <input type="text" name="Number"><br>
+                <button type="button" onclick="changehtml()">Send</button>
+        </form>
+    </div>
+    <!--Registration left-->
+    <!--Registration Center-->
+    <div class="content2">
+        <h1>Carshare's Packages</h1>
+        <table>
+            <tr>
+                <th>PACKAGE 1</th>   
+                <th>PACKAGE 2</th>
+                <th>PACKAGE 3</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Offers: <br>deal 1,2,3<br>deal 1,2,3<br>deal 1,2,3</td>
+                <td rowspan="4">Offers: <br>deal 1,2,3<br>deal 1,2,3<br>deal 1,2,3</td>
+                <td rowspan="4">Offers: <br>deal 1,2,3<br>deal 1,2,3<br>deal 1,2,3</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <p>Enter package number for total cost - NZD$ </p>
+            <form name="practice" onsubmit="return performOp()" method="post">
+            <input type="text" name="number">
+            <input type="submit" name="Submit">
+            </form>
+        <form>
+            <p>Enter card number</p>
+                <input type="text" name="card"><br>
+            <p>Enter Expiry Date</p>
+                <input type="text" name="card"><br>
+            <p>Enter CVS</p>
+                <input type="text" name="card"><br>
+        </form>
+        </div>
+    <!--Registration Center-->
+    <!--Registration Right-->
+    <div class="content3">
+        <br>
+        <p>Select A Package</p>
+            <select name="age">
+                <option value="1">Package 1</option>
+                <option value="1">Package 2</option>
+                <option value="1">Package 3</option>
+            </select>
+        <br>
+        <br>
+        <br>
+        <p>To Finish Registering To Carshare <br>
+        1.) type Subscribe <br>
+        2.) press register</p>
+            <form name="confirm" onsubmit="return validateForm()" method="post">
+            <input type="text" name="code">
+            <input type="submit" value="Submit">
+            </form>        
+    </div>
+  <!--Registration Right-->  
+</content>
+</body>
+</html>

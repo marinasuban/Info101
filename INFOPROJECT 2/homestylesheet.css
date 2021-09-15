@@ -1,0 +1,152 @@
+/* general design*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+
+header {
+    background-image: url(9.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+span{
+    color: green
+}
+
+/* general design*/
+
+/* start navigation bar*/
+#navigation {
+    list-style-type: none;
+    float: right;
+}
+
+#navigation li {
+    float: right;
+    display: inline-block;
+    margin-top: 25px;
+    height: 100%;
+    padding: 10px;
+}
+
+#navigation li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff
+}
+
+#navigation li a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.8s ease;
+}
+
+.logo img{
+    float: left;
+    margin-top: 20px;
+    width: 110px;
+    height: 130px;
+}
+
+p2{
+    float: left;
+    margin-top: 60px;
+    width: 110px;
+    height: 130px;
+    font-size: 30px;
+    color: white;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* End navigation bar*/
+
+/* Start content*/
+.title1{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    border: 1px solid #fff;
+    padding: 20px;
+    background-color: white;
+    opacity: 0.85;
+    width: 300px;
+    height: 500px;
+}
+
+.title1 h1{
+    color: green;
+    font-size: 40px;  
+}
+
+.title2{
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    border: 1px solid #fff;
+    padding: 20px;
+    background-color: white;
+    opacity: 0.85;
+    width: 300px;
+    height: 500px;
+}
+
+.title2 h1{
+    color: green;
+    font-size: 40px;  
+}
+
+.title3{
+    position: absolute;
+    top: 25%;
+    left: 62%;
+    border: 1px solid #fff;
+    padding: 20px;
+    background-color: white;
+    opacity: 0.85;
+    width: 300px;
+    height: 500px;
+}
+
+.title3 h1{
+    color: green;
+    font-size: 40px;  
+}
+
+.map{
+    position: absolute;
+    top: 515px;
+    left: 63.5%;
+}
+
+.owner{
+    position: absolute;
+    top: 515px;
+    left: 11.5%;
+    
+}
+
+.fleet{
+    position: absolute;
+    top: 515px;
+    left: 37.5%;
+    
+}
+
+.content3{
+    font-size: 12px;
+    line-height: 1px;
+}
+
+.contentlist{
+    font-size: 12px;
+}
+
+/* End content*/
